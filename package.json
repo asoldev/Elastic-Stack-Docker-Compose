@@ -1,0 +1,23 @@
+{
+  "name": "elasticsearch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.13.1",
+    "@langchain/community": "^0.0.48",
+    "@langchain/openai": "^0.0.28",
+    "@opensearch-project/opensearch": "^2.7.0",
+    "express": "^4.19.2",
+    "langchain": "^0.1.33",
+    "nodemon": "^3.1.0",
+    "uuid": "^9.0.1"
+  }
+}
